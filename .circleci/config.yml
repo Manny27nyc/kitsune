@@ -40,6 +40,11 @@ jobs:
       - run:
           name: Run js tests
           command: ./bin/dc_ci.sh run test npm run webpack:test
+      - run:
+          name: Echo prod image hash
+          command: |
+            source docker/bin/set_git_env_vars.sh
+            echo -e "\033[48;2;$((16#${GIT_COMMIT_SHORT:0:2}));$((16#${GIT_COMMIT_SHORT:2:2}));$((16#${GIT_COMMIT_SHORT:4:2}))m${GIT_COMMIT_SHORT}"
       - when:
           condition:
             or:
