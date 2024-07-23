@@ -39,7 +39,7 @@
     "jquery": "1.11.3",
     "jquery-ui": "1.12.1",
     "nunjucks": "^3.2.3",
-    "react": "0.13.3",
+    "react": "0.14.0",
     "underscore": "^1.13.1"
   },
   "devDependencies": {
