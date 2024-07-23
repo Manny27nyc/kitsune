@@ -79,7 +79,7 @@
     "mocha": "2.3.2",
     "onchange": "^6.1.0",
     "path-parse": "^1.0.7",
-    "postcss": "^8.3.5",
+    "postcss": "^8.4.31",
     "postcss-custom-properties": "^9.2.0",
     "postcss-loader": "^6.1.1",
     "sass": "^1.23.2",
